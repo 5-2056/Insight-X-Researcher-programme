@@ -1,0 +1,17 @@
+name =(input("Enter your name:"))
+print(name)
+print(type(name))
+age = int(input("Enter your age:"))
+print(age)
+print(type(age))
+height=float(input("Enter your height:"))
+print(height)
+print(type(height))
+if age >= 18:
+    print("You are eligible to vote:")
+else:
+    print("You are not eligible to vote:")
+a=str(input("enter first number:"))
+b=str(input("enter second number:"))
+c=int(a)+int(b)
+print(c)
